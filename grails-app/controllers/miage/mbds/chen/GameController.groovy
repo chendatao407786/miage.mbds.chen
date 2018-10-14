@@ -12,7 +12,7 @@ class GameController {
     DefineWinnerService defineWinnerService
     SearchUsersInGameService searchUsersInGameService
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
-    static responseFormats = ['json', 'xml']
+//    static responseFormats = ['json', 'xml']
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         if(gameService.list().size()>0){

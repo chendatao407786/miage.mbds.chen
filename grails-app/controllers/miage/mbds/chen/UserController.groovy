@@ -10,7 +10,7 @@ class UserController {
     UserService userService
     UserGameService userGameService
     GameService gameService
-    static responseFormats = ['json', 'xml']
+//    static responseFormats = ['json', 'xml']
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
