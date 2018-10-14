@@ -1,0 +1,14 @@
+import miage.mbds.chen.UserGame
+
+response.status 200
+
+model{
+    UserGame userGame
+}
+
+json{
+    userId userGame.userId
+    gameId userGame.gameId
+    score userGame.score
+    result userGame.result
+}

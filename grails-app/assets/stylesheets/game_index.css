@@ -1,0 +1,60 @@
+.showGameList{
+    margin-top: 70px;
+}
+.game{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: flex-end;
+}
+.user_game{
+    width: 100px;
+    height: 125px;
+    flex-grow: 0;
+    text-align: center;
+}
+
+.user_game img{
+    width: 100px;
+}
+.score{
+    flex-grow: 1;
+    margin: 0 10px;
+    display: flex;
+    height: 100px;
+
+}
+
+.score_user{
+    height: 50px;
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.score_user1{
+    width: 50%;
+    background-color: #2e6da4;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.score_user2{
+    padding-right: 5px;
+    width: 50%;
+    background-color: #cc0000;
+    text-align: right;
+}
+
+.user_game span{
+    width: 100px;
+    display: block;
+    font-weight: 100;
+}
+
+hr{
+    background-color: silver;
+    width: 80%;
+    margin: 0 auto;
+}

@@ -1,0 +1,48 @@
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+#user{
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 5px rgba(134, 138, 138, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#pic{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: calc(300px*4/3);
+}
+#profile{
+    width: 100%;
+    transition: 1s ease-out;
+}
+#profile:hover {
+    transform: scale(1.1);
+}
+#user span {
+    font-family: "Microsoft YaHei", Tahoma, Helvetica, simsun, sans-serif;
+    margin-top: 20px;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+#user span:hover{
+    transform: scale(1.05);
+    font-weight: 200;
+}
+#user:hover {
+    box-shadow: 8px 8px 15px rgba(134, 138, 138, 1);
+}
+
+
+
